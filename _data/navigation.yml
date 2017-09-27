@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+    
+  - title: "Video Highlights"
+    url: /video-highlights/
+
+  - title: "CV"
+    url: /files/traversaro-cv.pdf
