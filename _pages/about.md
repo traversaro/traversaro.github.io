@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I received the Ph.D. title in Bioengineering and Robotics from the Italian Institute of Technology and the University of Genoa in April 2017. I prepared my Ph.D. thesis [Modelling, Estimation and Identification of Humanoid Robots Dynamics](preprints/traversaro-phd-thesis.pdf) at under the supervision of [Francesco Nori](http://iron76.github.io/).
+I received the Ph.D. title in Bioengineering and Robotics from the Italian Institute of Technology and the University of Genoa in April 2017. I prepared my Ph.D. thesis [Modelling, Estimation and Identification of Humanoid Robots Dynamics](preprints/traversaro-phd-thesis.pdf) under the supervision of [Francesco Nori](http://iron76.github.io/).
 
 Since May 2017, I am a postdoctoral fellow at the Italian Institute of Technology working in the [Dynamic Interaction Control Lab](https://www.iit.it/research/lines/dynamic-interaction-control).
 
