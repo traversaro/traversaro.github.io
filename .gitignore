@@ -24,3 +24,8 @@ _testmain.go
 
 /public
 .DS_Store
+
+/content
+bibliography/publications.yml
+bibliography/traversaro_pubs.yml 
+bibliography/content
