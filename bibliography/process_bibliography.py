@@ -259,7 +259,7 @@ def main():
     bib = gen_refs(intermediate)
     gen_items(bib['references'])
     move_md_files()
-    move_pdf_files()
+    #move_pdf_files()
 
 if __name__ == '__main__':
     main()

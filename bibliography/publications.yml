@@ -1,0 +1,450 @@
+references:
+- DOI: 10.3390/s19245521
+  URL: https://doi.org/10.3390/s19245521
+  abstract: A crucial part of dynamic motions is the interaction with other objects
+    or the environment. Floating base robots have yet to perform these motions repeatably
+    and reliably. Force torque sensors are able to provide the full description of
+    a contact. Despite that, their use beyond a simple threshold logic is not widespread
+    in floating base robots. Force torque sensors might change performance when mounted,
+    which is why in situ calibration methods can improve the performance of robots
+    by ensuring better force torque measurements. The Model-Based in situ calibration
+    method with temperature compensation has shown promising results in improving
+    FT sensor measurements. There are two main goals for this paper. The first is
+    to facilitate the use and understanding of the method by providing guidelines
+    that show their usefulness through experimental results. Then the impact of having
+    better FT measurements with no temperature drift are demonstrated by proving that
+    the offset estimated with this method is still useful days and even a month from
+    the time of estimation. The effect of this is showcased by comparing the sensor
+    response with different offsets simultaneously during real robot experiments.
+    Furthermore, quantitative results of the improvement in dynamic behaviors due
+    to the in situ calibration are shown. Finally, we show how using better FT measurements
+    as feedback in low and high level controllers can impact the performance of floating
+    base robots during dynamic motions. Experiments were performed on the floating
+    base robot iCub.
+  author:
+  - {family: Chavez, given: Francisco Javier Andrade}
+  - {family: Traversaro, given: Silvio}
+  - {family: Pucci, given: Daniele}
+  container-title: Sensors
+  id: chavez2019insitu
+  issue: '24'
+  issued:
+  - {month: 12, year: 2019}
+  page: '5521'
+  publisher: MDPI AG
+  title: Six-axis force torque sensor model-based in situ calibration method and its
+    impact in floating-based robot dynamic performance
+  type: article-journal
+  volume: '19'
+- DOI: 10.3390/s19122794
+  URL: http://doi.org/10.3390/s19122794
+  author:
+  - {family: Latella, given: Claudia}
+  - {family: Traversaro, given: Silvio}
+  - {family: Ferigo, given: Diego}
+  - {family: Tirupachuri, given: Yeshasvi}
+  - {family: Rapetti, given: Lorenzo}
+  - {family: Chavez, given: Francisco Javier Andrade}
+  - {family: Nori, given: Francesco}
+  - {family: Pucci, given: Daniele}
+  container-title: Sensors
+  id: latella2019simultaneous
+  issued:
+  - {year: 2019}
+  title: Simultaneous floating-base estimation of human kinematics and joint torques
+  type: article-journal
+- DOI: 10.1109/tcst.2019.2891222
+  URL: https://doi.org/10.1109/tcst.2019.2891222
+  author:
+  - {family: Romeres, given: Diego}
+  - {family: Zorzi, given: Mattia}
+  - {family: Camoriano, given: Raffaello}
+  - {family: Traversaro, given: Silvio}
+  - {family: Chiuso, given: Alessandro}
+  container-title: IEEE Transactions on Control Systems Technology
+  id: romeres2019
+  issued:
+  - {year: 2019}
+  page: 1-15
+  publisher: Institute of Electrical; Electronics Engineers (IEEE)
+  title: Derivative-free online learning of inverse dynamics models
+  type: article-journal
+- DOI: 10.1109/lra.2018.2857858
+  URL: https://doi.org/10.1109/lra.2018.2857858
+  author:
+  - {family: Kangro, given: Joan}
+  - {family: Sureshbabu, given: Anand Vazhapilli}
+  - {family: Traversaro, given: Silvio}
+  - {family: Pucci, given: Daniele}
+  - {family: Nori, given: Francesco}
+  container-title: IEEE Robotics and Automation Letters
+  id: kangro2018
+  issue: '4'
+  issued:
+  - {month: 10, year: 2018}
+  page: 3937-3943
+  publisher: Institute of Electrical; Electronics Engineers (IEEE)
+  title: A plenum-based calibration device for tactile sensor arrays
+  type: article-journal
+  volume: '3'
+- DOI: 10.1109/lra.2018.2856914
+  URL: https://doi.org/10.1109/lra.2018.2856914
+  author:
+  - {family: Chavez, given: Francisco Javier Andrade}
+  - {family: Kangro, given: Joan}
+  - {family: Traversaro, given: Silvio}
+  - {family: Nori, given: Francesco}
+  - {family: Pucci, given: Daniele}
+  container-title: IEEE Robotics and Automation Letters
+  id: chavez2018
+  issue: '4'
+  issued:
+  - {month: 10, year: 2018}
+  page: 3900-3907
+  publisher: Institute of Electrical; Electronics Engineers (IEEE)
+  title: Contact force and joint torque estimation using skin
+  type: article-journal
+  volume: '3'
+- DOI: 10.5281/zenodo.3564797
+  URL: https://doi.org/10.5281/zenodo.3564797
+  author:
+  - {family: Traversaro, given: Silvio}
+  genre: PhD thesis
+  id: traversaro2017thesis
+  issued:
+  - {month: 4, year: 2017}
+  publisher: University of Genoa
+  title: <span class="nocase">Modelling, Estimation and Identification of Humanoid
+    Robots Dynamics</span>
+  type: thesis
+- DOI: 10.1109/LRA.2017.2655560
+  ISSN: 2377-3774
+  abstract: In the literature on robotics and multibody dynamics, the concept of average
+    angular velocity has received considerable attention in recent years. We address
+    the question of whether the average angular velocity defines an orientation frame
+    that depends only on the current robot configuration and provide a simple algebraic
+    condition to check whether this holds. In the language of geometric mechanics,
+    this condition corresponds to requiring the flatness of the mechanical connection
+    associated with the robotic system. Here, however, we provide both a reinterpretation
+    and a proof of this result accessible to readers with a background in rigid body
+    kinematics and multibody dynamics but not necessarily acquainted with differential
+    geometry, still providing precise links to the geometric mechanics literature.
+    This should help spreading the algebraic condition beyond the scope of geometric
+    mechanics, contributing to a proper utilization and understanding of the concept
+    of average angular velocity.
+  author:
+  - {family: Saccon, given: A.}
+  - {family: Traversaro, given: S.}
+  - {family: Nori, given: F.}
+  - {family: Nijmeijer, given: H.}
+  container-title: IEEE Robotics and Automation Letters
+  id: saccon2017centroidal
+  issue: '2'
+  issued:
+  - {year: 2017}
+  keyword: algebra;differential geometry;robot dynamics;differential geometry;rigid
+    body kinematics;robotic system;mechanical connection;geometric mechanics;algebraic
+    condition;orientation frame;multibody dynamics;average angular velocity;centroidal
+    dynamics;Angular velocity;Dynamics;Jacobian matrices;Geometry;Humanoid robots;Heuristic
+    algorithms;Direct/inverse dynamics formulation;humanoid robots;kinematics;multilegged
+    robots;space robotics
+  page: 943-950
+  title: On centroidal dynamics and integrability of average angular velocity
+  type: article-journal
+  volume: '2'
+- DOI: 10.1109/HUMANOIDS.2016.7803266
+  ISSN: 2164-0580
+  abstract: "This video shows the latest results in the whole-body control of humanoid\
+    \ robots achieved by the Dynamic Interaction Control Lab at the Italian Institute\
+    \ of Technology. In particular, the control architecture is composed of two nested\
+    \ control loops. The internal loop, which runs at 1 KHz, is in charge of stabilizing\
+    \ any desired joint torque. This task is achieved thanks to an off-line identification\
+    \ procedure providing us with a reliable model of friction and motor constants.\
+    \ The outer loop, which generates desired joint torques at 100 Hz, is a momentum\
+    \ based control algorithm in the context of free-floating systems. More precisely,\
+    \ the control objective for the outer loop is the stabilization of the robot\u2019\
+    s linear and angular momentum and the associated zero dynamics. The latter objective\
+    \ can be used to stabilize a desired joint configuration. The stability of the\
+    \ control framework is shown to be in the sense of Lyapunov. The contact forces\
+    \ and torques are regulated so as to break contacts only at desired configurations.\
+    \ Switching between several contacts is taken into account thanks to a finite-state-machine\
+    \ that dictates the constraints acting on the system. The control framework is\
+    \ implemented on the iCub humanoid robot."
+  author:
+  - {family: Pucci, given: D.}
+  - {family: Romano, given: F.}
+  - {family: Traversaro, given: S.}
+  - {family: Nori, given: F.}
+  container-title: 2016 ieee-ras 16th international conference on humanoid robots
+    (humanoids)
+  id: pucci2016highly
+  issued:
+  - {month: 11, year: 2016}
+  keyword: angular momentum;finite state machines;force control;humanoid robots;linear
+    momentum;Lyapunov methods;stability;iCub humanoid robot;finite-state-machine;Lyapunov
+    function;robot angular momentum;robot linear momentum;free-floating systems;momentum
+    based control algorithm;motor constants;friction constants;offline identification;joint
+    torque stabilization;nested control loops;Italian Institute of Technology;Dynamic
+    Interaction Control Lab;humanoid robot whole-body control;force control;highly
+    dynamic balancing;Humanoid robots;Dynamics;Force control;Torque;Reliability;Friction
+  page: 141-141
+  title: Highly dynamic balancing via force control
+  type: paper-conference
+- DOI: 10.1109/HUMANOIDS.2016.7803310
+  ISSN: 2164-0580
+  abstract: This paper proposes and validates an in situ calibration method to calibrate
+    six axis force torque (F/T) sensors once they are mounted on the system. This
+    procedure takes advantage of the knowledge of the model of the robot to generate
+    the expected wrenches of the sensors during some arbitrary motions. It then uses
+    this information to train and validate new calibration matrices, taking into account
+    the calibration matrix obtained with a classical Workbench calibration. The proposed
+    calibration algorithm is validated on the F/T sensors mounted on the iCub humanoid
+    robot legs.
+  author:
+  - {family: Chavez, given: F. J. A.}
+  - {family: Traversaro, given: S.}
+  - {family: Pucci, given: D.}
+  - {family: Nori, given: F.}
+  container-title: 2016 ieee-ras 16th international conference on humanoid robots
+    (humanoids)
+  id: chavez2016model
+  issued:
+  - {month: 11, year: 2016}
+  keyword: calibration;force measurement;force sensors;humanoid robots;torque measurement;six
+    axis force torque sensor;F-T sensor;classical Workbench calibration matrix method;iCub
+    humanoid robot leg;Calibration;Robot sensing systems;Estimation;Humanoid robots;Strain
+  page: 422-427
+  title: Model based in situ calibration of six axis force torque sensors
+  type: paper-conference
+- DOI: 10.1109/HUMANOIDS.2016.7803427
+  ISSN: 2164-0580
+  abstract: 'Accurate calibration of joint offsets is a crucial requirement for effective
+    kinematic and dynamic control of robots. Such calibration is typically carried
+    out using cumbersome and time-consuming procedures. We propose a technique for
+    joint offset calibration using the measurements from a distributed set of on-board
+    accelerometers. Differently from existing techniques, we do not assume that the
+    accelerometers are perfectly calibrated. The calibration procedure consist in
+    a two steps automatic procedure : the first step calibrates the accelerometer
+    measurements, while the second one computes the optimal joint offsets. The only
+    constraint required for the kinematic chain calibration trajectory is to follow
+    a sequence of static poses or to move under negligible robot acceleration and
+    slow speed. The proposed approach was validated on a position control problem
+    on the iCub humanoid robot.'
+  author:
+  - {family: Guedelha, given: N.}
+  - {family: Kuppuswamy, given: N.}
+  - {family: Traversaro, given: S.}
+  - {family: Nori, given: F.}
+  container-title: 2016 ieee-ras 16th international conference on humanoid robots
+    (humanoids)
+  id: guedelha2016self
+  issued:
+  - {month: 11, year: 2016}
+  keyword: accelerometers;calibration;humanoid robots;position control;robot dynamics;robot
+    kinematics;dynamic control;kinematic control;joint offset calibration;on-board
+    accelerometer measurements;optimal joint offsets;kinematic chain calibration trajectory;static
+    poses;robot acceleration;position control;iCub humanoid robot;self-calibration;Accelerometers;Calibration;Kinematics;Acceleration;Robot
+    sensing systems
+  page: 1233-1238
+  title: Self-calibration of joint offsets for humanoid robots using accelerometer
+    measurements
+  type: paper-conference
+- DOI: 10.1109/HUMANOIDS.2016.7803270
+  ISSN: 2164-0580
+  abstract: In the problem of fast bipedal locomotion on uneven terrain, one of the
+    key challenges is in establishing stable footholds. We present an approach for
+    analytically computing the optimal impedances for completing a safe and stable
+    foothold. The robot foot-leg behavior is modeled as a free-floating two-link system
+    making contact with an uneven surface. The optimal impedance is derived directly
+    from minimizing a cost function based on the Center of Pressure (CoP) at the instant
+    of making full ground contact. The obtained impedance is shown to be linearly
+    dependent on the orientation of the ground, for a given desired terminal state
+    and CoP position. Consequently the impedance can be estimated based on an expectation
+    of ground orientation at the point of foot contact. The proposed approach is validated
+    in a walking simulation on the full iCub humanoid robot.
+  author:
+  - {family: Romano, given: F.}
+  - {family: Kuppuswamy, given: N.}
+  - {family: Ciocca, given: M.}
+  - {family: Traversaro, given: S.}
+  - {family: Nori, given: F.}
+  container-title: 2016 ieee-ras 16th international conference on humanoid robots
+    (humanoids)
+  id: romano2016stable
+  issued:
+  - {month: 11, year: 2016}
+  keyword: humanoid robots;legged locomotion;optimal ankle impedance;fast bipedal
+    locomotion;uneven terrain;stable footholds;optimal impedances;robot foot-leg behavior;free-floating
+    two-link system;uneven surface;cost function minimization;center of pressure;full
+    ground contact;CoP position;terminal state;ground orientation;point of foot contact;walking
+    simulation;iCub humanoid robot;Legged locomotion;Foot;Impedance;Robot sensing
+    systems;Stability analysis;Acceleration
+  page: 146-151
+  title: Stable bipedal foot planting on uneven terrain through optimal ankle impedance
+  type: paper-conference
+- DOI: 10.1109/IROS.2016.7759801
+  URL: http://doi.org/10.1109/IROS.2016.7759801
+  author:
+  - {family: Traversaro, given: Silvio}
+  - {family: Brossette, given: Stanislas}
+  - {family: Escande, given: Adrien}
+  - {family: Nori, given: Francesco}
+  container-title: IEEE International Conference on Intelligent Robots and Systems
+  id: traversaro2016manifolds
+  issued:
+  - {year: 2016}
+  title: Identification of fully physical consistent inertial parameters using optimization
+    on manifolds
+  type: paper-conference
+- author:
+  - {family: Camoriano, given: R.}
+  - {family: Traversaro, given: S.}
+  - {family: Rosasco, given: L.}
+  - {family: Metta, given: G.}
+  - {family: Nori, given: F.}
+  container-title: Proceedings - IEEE International Conference on Robotics and Automation
+  id: camoriano2016incremental
+  issued:
+  - {year: 2016}
+  page: 544-550
+  title: Incremental semiparametric inverse dynamics learning
+  type: article-journal
+  volume: 2016-June
+- DOI: 10.3390/s16050727
+  URL: http://doi.org/10.3390/s16050727
+  author:
+  - {family: Latella, given: C.}
+  - {family: Kuppuswamy, given: N.}
+  - {family: Romano, given: F.}
+  - {family: Traversaro, given: S.}
+  - {family: Nori, given: F.}
+  container-title: Sensors (Switzerland)
+  id: latella2016berdy
+  issue: '5'
+  issued:
+  - {year: 2016}
+  title: Whole-body human inverse dynamics with distributed micro-accelerometers,
+    gyros and force sensing
+  type: article-journal
+  volume: '16'
+- author:
+  - {family: Paikan, given: Ali}
+  - {family: Traversaro, given: Silvio}
+  - {family: Nori, given: Francesco}
+  - {family: Natale, given: Lorenzo}
+  id: paikan2015testing
+  issued:
+  - {year: 2015}
+  title: A generic testing framework for test driven development of robotic systems
+  type: article-journal
+- author:
+  - {family: Traversaro, given: S.}
+  - {family: Pucci, given: D.}
+  - {family: Nori, given: F.}
+  container-title: Proceedings - IEEE International Conference on Robotics and Automation
+  id: traversaro2015insi
+  issue: June
+  issued:
+  - {year: 2015}
+  page: 2111-2116
+  title: In situ calibration of six-axis force-torque sensors using accelerometer
+    measurements
+  type: article-journal
+  volume: 2015-June
+- author:
+  - {family: Traversaro, given: S.}
+  - {family: Del Prete, given: A.}
+  - {family: Ivaldi, given: S.}
+  - {family: Nori, given: F.}
+  container-title: Proceedings - IEEE International Conference on Robotics and Automation
+  id: traversaro2015inertial
+  issue: June
+  issued:
+  - {year: 2015}
+  page: 2105-2110
+  title: Inertial parameters identification and joint torques estimation with proximal
+    force/torque sensing
+  type: article-journal
+  volume: 2015-June
+- author:
+  - {family: Nori, given: F.}
+  - {family: Kuppuswamy, given: N.}
+  - {family: Traversaro, given: S.}
+  container-title: IEEE International Conference on Intelligent Robots and Systems
+  id: nori2015simultaneous
+  issued:
+  - {year: 2015}
+  page: 3380-3386
+  title: Simultaneous state and dynamics estimation in articulated structures
+  type: article-journal
+  volume: 2015-December
+- DOI: 10.3389/frobt.2015.00006
+  ISSN: 2296-9144
+  URL: http://www.frontiersin.org/humanoid\_robotics/10.3389/frobt.2015.00006/abstract
+  abstract: This paper details the implementation of state-of-the-art whole-body control
+    algorithms on the humanoid robot iCub. We regulate the forces between the robot
+    and its surrounding environment to stabilize a desired posture. We assume that
+    the forces and torques are exerted on rigid contacts. The validity of this assumption
+    is guaranteed by constraining the contact forces and torques, e.g., the contact
+    forces must belong to the associated friction cones. The implementation of this
+    control strategy requires the estimation of both joint torques and external forces
+    acting on the robot. We then detail algorithms to obtain these estimates when
+    using a robot with an iCub-like sensor set, i.e., distributed six-axis force-torque
+    sensors and whole-body tactile sensors. A general theory for identifying the robot
+    inertial parameters is also presented. From an actuation standpoint, we show how
+    to implement a joint-torque control in the case of DC brushless motors. In addition,
+    the coupling mechanism of the iCub torso is investigated. The soundness of the
+    entire control architecture is validated in a real scenario involving the robot
+    iCub balancing and making contact with both arms.
+  author:
+  - {family: Nori, given: Francesco}
+  - {family: Traversaro, given: Silvio}
+  - {family: Eljaik, given: Jorhabib}
+  - {family: Romano, given: Francesco}
+  - {family: Del Prete, given: Andrea}
+  - {family: Pucci, given: Daniele}
+  container-title: Frontiers in Robotics and AI
+  id: nori2015icub
+  issue: '6'
+  issued:
+  - {year: 2015}
+  title: ICub whole-body control through force regulation on rigid noncoplanar contacts
+  type: article-journal
+  volume: '2'
+- author:
+  - {family: Hoffman, given: Enrico Mingo}
+  - {family: Traversaro, given: Silvio}
+  - {family: Rocchi, given: Alessio}
+  - {family: Ferrati, given: Mirko}
+  - {family: Settimi, given: Alessandro}
+  - {family: Romano, given: Francesco}
+  - {family: Natale, given: Lorenzo}
+  - {family: Bicchi, given: Antonio}
+  - {family: Nori, given: Francesco}
+  - {family: Tsagarakis, given: Nikos G}
+  container-title: 'Modelling and Simulation for Autonomous Systems: First International
+    Workshop, MESAS 2014, Rome, Italy, May 5-6, 2014, Revised Selected Papers'
+  id: hoffman2014yarp
+  issued:
+  - {year: 2014}
+  page: '333'
+  publisher: Springer
+  title: Yarp based plugins for gazebo simulator
+  type: article-journal
+  volume: '8906'
+- DOI: 10.1109/humanoids.2013.7029957
+  URL: http://dx.doi.org/10.1109/humanoids.2013.7029957
+  author:
+  - {family: Traversaro, given: Silvio}
+  - {family: Prete, given: Andrea Del}
+  - {family: Muradore, given: Riccardo}
+  - {family: Natale, given: Lorenzo}
+  - {family: Nori, given: Francesco}
+  container-title: 2013 13th IEEE-RAS international conference on humanoid robots
+    (humanoids)
+  id: traversaro2013inertial
+  issued:
+  - {month: 10, year: 2013}
+  publisher: Institute of Electrical & Electronics Engineers (IEEE)
+  title: Inertial parameter identification including friction and motor dynamics
+  type: paper-conference
