@@ -32,9 +32,9 @@ jobs:
         hugo -D
 
     - name: Deploy
-      if: github.event_name == 'push' && (github.ref == 'refs/heads/master')
+      if: github.event_name == 'push' && (github.ref == 'refs/heads/source')
       uses: JamesIves/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
+        BRANCH: master
         FOLDER: public
