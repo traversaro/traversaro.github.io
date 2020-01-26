@@ -9,7 +9,7 @@ publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true
 pygmentsStyle: "zenburn"
-baseURL: "https://traversaro.github.io"
+baseURL: "https://traversaro.github.io/"
 indexes:
   category: "categories"
   tag: "tags"
