@@ -1,0 +1,38 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: Print GitHub context
+      env:
+        GITHUB_EVENT: ${{ github.event_name }}
+        GITHUB_REF: ${{ github.ref }}
+      run: |
+        echo $GITHUB_EVENT $GITHUB_REF
+    
+    - name: Generate Hugo Website
+      run: |
+        # Install dependencies 
+        sudo apt install python3 python3-pybtex pandoc-citeproc
+        sudo snap install hugo
+        # Generate bibliography pages
+        cd bibliography
+        python3 process_bibliography.py traversaro_pubs.bib
+        cd .. 
+        # Run Hugo
+        hugo -D
+
+    - name: Deploy
+      if: github.event_name == 'push' && (github.ref == 'refs/heads/master')
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: public
