@@ -92,10 +92,11 @@ def merge(bitem, yitem):
     for f in fields:
         if f in bitem.fields.keys():
             s = str(bitem.fields[f])
-            if f == 'file':
-                yitem[f] = extract_file_link(s)
-            else:
-                yitem[f] = s
+            # if f == 'file':
+            #    yitem[f] = extract_file_link(s)
+            # else:
+            #    yitem[f] = s
+            yitem[f] = s
     return yitem
 
 def process_item(bitem, yitem):

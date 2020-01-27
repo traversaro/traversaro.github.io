@@ -58,7 +58,8 @@
     number       = 4,
     pages        = {3937--3943},
     doi          = {10.1109/lra.2018.2857858},
-    url          = {https://doi.org/10.1109/lra.2018.2857858}
+    file         = {https://doi.org/10.1109/lra.2018.2857858},
+    abstract     = {In modern robotic applications, tactile sensor arrays (i.e., artificial skins) are an emergent solution to determine the locations of contacts between a robot and an external agent. Localizing the point of contact is useful but determining the force applied on the skin provides many additional possibilities. This additional feature usually requires time-consuming calibration procedures to relate the sensor readings to the applied forces. This letter presents a novel device that enables the calibration of tactile sensor arrays in a fast and simple way. The key idea is to design a plenum chamber where the skin is inserted, and then the calibration of the tactile sensors is achieved by relating the air pressure and the sensor readings. This general concept is tested experimentally to calibrate the skin of the iCub robot. The validation of the calibration device is achieved by placing the masses of known weight on the artificial skin and comparing the applied force against the one estimated by the sensors.}
 }
 ,
 @article{chavez2018,
@@ -72,7 +73,8 @@
     number       = 4,
     pages        = {3900--3907},
     doi          = {10.1109/lra.2018.2856914},
-    url          = {https://doi.org/10.1109/lra.2018.2856914}
+    file         = {https://arxiv.org/pdf/1709.06902},
+    abstract     = {In this letter, we present algorithms to estimate contact locations, external forces, and joint torques using skin, i.e., distributed tactile sensors, kinematic sensors, and a single Inertial Measurement Unit (IMU) without the need for force-torque sensors. Distributed tactile sensors are an array of discrete tactile sensors (taxels) with gaps between them. To cope with the gaps, we use interpolation techniques to improve accuracy of the measurements in the skin. Then, we estimate the external force. Finally, we use this information combined with the contact location obtained from the skin to estimate the joint torques. Validation was performed using the iCub humanoid robot. Results show a performance comparable to the joint torque estimation using expensive force-torque sensors. Since the skin is less expensive and does not require modification of the internal structure of the robot, using the skin is an interesting solution.}
 }
 ,
 @phdthesis{traversaro2017thesis,
@@ -82,12 +84,15 @@
   year         = 2017,
   month        = apr,
   doi          = {10.5281/zenodo.3564797},
-  url          = {https://doi.org/10.5281/zenodo.3564797}
+  file         = {https://traversaro.github.io/phd-thesis/traversaro-phd-thesis.pdf},
+  abstract     = {During the last fifty years, the scientific community has dealt with the problem of designing humanoid robots, with the goal of creating artificial machines flexible enough to master any task performed by a human. A prerequisite for such generic machines would be the ability to control the forces that robots exchange with the environment, in addition to their own motion. 
+                  These requirements imply that any controller of a humanoid robot requires an implicit or explicit model for the robot’s dynamics, i.e. the laws describing the relation between the robot motion and the forces applied on itself, being either the external forces that the robot exchange with the environment or the forces provided by its own motors. Additionally, any time-variant quantity present in these models need to be perceived by the humanoid robot. If a quantity is not directly measured by a sensor, it needs to be estimated using the available measurements of different quantities and the dynamical models that relate them. Both the dynamics models and
+                  the sensor models are typically not perfectly known, and need to be identified from measured data and using a set of a-priori hypothesis. This thesis focuses on addressing the problems of modelling, estimation and identification of humanoid robots, focusing in particular to the specific characteristics and sensor set of the iCub humanoid robot.}
 }
 ,
 @article{saccon2017centroidal,
     author={A. {Saccon} and S. {Traversaro} and F. {Nori} and H. {Nijmeijer}},
-    journal={IEEE Robotics and Automation Letters},
+    journal={{IEEE Robotics and Automation Letters}},
     title={On Centroidal Dynamics and Integrability of Average Angular Velocity},
     year={2017},
     volume={2},
@@ -106,6 +111,7 @@
               to a proper utilization and understanding of the concept of average angular velocity.},
     keywords={algebra;differential geometry;robot dynamics;differential geometry;rigid body kinematics;robotic system;mechanical connection;geometric mechanics;algebraic condition;orientation frame;multibody dynamics;average angular velocity;centroidal dynamics;Angular velocity;Dynamics;Jacobian matrices;Geometry;Humanoid robots;Heuristic algorithms;Direct/inverse dynamics formulation;humanoid robots;kinematics;multilegged robots;space robotics},
     doi={10.1109/LRA.2017.2655560},
+    file={https://arxiv.org/pdf/1701.02514},
     ISSN={2377-3774},
     month={Apr},
 }
@@ -220,51 +226,75 @@ month={Nov},}
     url          = {http://doi.org/10.3390/s16050727}
 }
 ,
-@article{paikan2015testing,
-    year         = 2015,
-    title        = {A Generic Testing Framework for Test Driven Development of Robotic Systems},
-    author       = {Paikan, Ali and Traversaro, Silvio and Nori, Francesco and Natale, Lorenzo}
+@incollection{Paikan2015,
+  doi = {10.1007/978-3-319-22383-4_17},
+  year = {2015},
+  publisher = {Springer International Publishing},
+  pages = {216--225},
+  author = {Ali Paikan and Silvio Traversaro and Francesco Nori and Lorenzo Natale},
+  title = {A Generic Testing Framework for Test Driven Development of Robotic Systems},
+  booktitle = {Modelling and Simulation for Autonomous Systems},
+  abstract = {This paper proposes a generic framework for test driven development of robotic systems. The framework provides functionalities for developing and running unit tests in a language and middleware independent manner. Tests are developed as independent plug-ins to be loaded and executed by an automated tool. Moreover, a fixture manager prepares the setup (e.g., running robot drivers or simulator) and actively monitors that all the required resources are available before and during the execution of the tests. These functionalities effectively accelerate the development process and cover different levels of robotic system testing. The paper describes the framework and provides realistic examples to show how it has been used to support software development on our robotic platform.},
+  file =  {http://lornat75.github.io/papers/2015/paikan-mesas.pdf}
 }
 ,
-@article{traversaro2015insi,
-    year         = 2015,
-    title        = {In situ calibration of six-axis force-torque sensors using accelerometer measurements},
-    author       = {Traversaro, S. and Pucci, D. and Nori, F.},
-    journal      = {Proceedings - IEEE International Conference on Robotics and Automation},
-    volume       = {2015-June},
-    number       = {June},
-    pages        = {2111--2116}
+@inproceedings{traversaro2015insi,
+author={S. {Traversaro} and D. {Pucci} and F. {Nori}},
+booktitle={2015 IEEE International Conference on Robotics and Automation (ICRA)},
+title={In situ calibration of six-axis force-torque sensors using accelerometer measurements},
+year={2015},
+volume={},
+number={},
+pages={2111-2116},
+abstract={This paper proposes techniques to calibrate six-axis force-torque sensors that can be performed in situ, i.e., without removing the sensor from the hosting system. We assume that the force-torque sensor is attached to a rigid body equipped with an accelerometer. Then, the proposed calibration technique uses the measurements of the accelerometer, but requires neither the knowledge of the inertial parameters nor the orientation of the rigid body. The proposed method exploits the geometry induced by the model between the raw measurements of the sensor and the corresponding force-torque. The validation of the approach is performed by calibrating two six-axis force-torque sensors of the iCub humanoid robot.},
+keywords={accelerometers;calibration;force measurement;force sensors;torque measurement;six-axis force-torque sensor;accelerometer measurement;hosting system;calibration technique;rigid body orientation;geometry;raw measurement;iCub humanoid robot;Calibration;Robot sensing systems;Accelerometers;Force measurement;Sensor phenomena and characterization},
+doi={10.1109/ICRA.2015.7139477},
+file={https://arxiv.org/pdf/1410.0885},
+ISSN={1050-4729},
+month={May},
 }
 ,
-@article{traversaro2015inertial,
-    year         = 2015,
-    title        = {Inertial parameters identification and joint torques estimation with proximal force/torque sensing},
-    author       = {Traversaro, S. and Del Prete, A. and Ivaldi, S. and Nori, F.},
-    journal      = {Proceedings - IEEE International Conference on Robotics and Automation},
-    volume       = {2015-June},
-    number       = {June},
-    pages        = {2105--2110}
+@inproceedings{traversaro2015inertial,
+author={S. {Traversaro} and A. {Del Prete} and S. {Ivaldi} and F. {Nori}},
+booktitle={{2015 IEEE International Conference on Robotics and Automation (ICRA)}},
+title={Inertial parameters identification and joint torques estimation with proximal force/torque sensing},
+year={2015},
+volume={},
+number={},
+pages={2105-2110},
+abstract={Classically robot force control passes through joint torques measurement or estimation. Within this context, classical torque sensing technologies rely on current sensing on motor windings and on torsion sensing on motor shaft. An alternative approach was recently proposed in [1] and combines whole-body distributed 6-axis force/torque (F/T) sensors, gyroscopes, accelerometers and tactile sensors (i.e. artificial skin). A further advantage of this method is that it simultaneously estimates (internal) joint torques and (external) contact forces with no need of joint redesign. As a drawback, the method relies on a model of the robot dynamics, as it consists on reordering the classical recursive Newton-Euler algorithm (RNEA). In this paper we consider the problem of the parametric identification of the robot dynamic model from embedded F/T sensors. We extend recent results on parametric identification [2] by considering an arbitrary reordering of the classical RNEA. The theoretical framework is validated on the iCub humanoid, which is equipped with both 6-axis F/T sensors and joint torque sensors. We estimated the system inertial parameters using only one F/T sensor. We used the obtained parameters to estimate the joint torques (as proposed in [1]) and compared the results with direct joint torque measurements, used in this context only as a ground truth.},
+keywords={embedded systems;force sensors;humanoid robots;machine windings;Newton method;recursive estimation;robot dynamics;shafts;torque measurement;inertial parameters identification;joint torque estimation;proximal force sensing;proximal torque sensing;robot force control;current sensing;motor windings;torsion sensing;motor shaft;recursive Newton-Euler algorithm;robot dynamic model;embedded F/T sensors;arbitrary reordering;RNEA;iCub humanoid;torque measurement;Joints;Force;Torque;Estimation;Robot sensing systems},
+doi={10.1109/ICRA.2015.7139476},
+file={https://hal.inria.fr/hal-01131610/document},
+ISSN={1050-4729},
+month={May},
 }
 ,
-@article{nori2015simultaneous,
-    year         = 2015,
-    title        = {Simultaneous state and dynamics estimation in articulated structures},
-    author       = {Nori, F. and Kuppuswamy, N. and Traversaro, S.},
-    journal      = {IEEE International Conference on Intelligent Robots and Systems},
-    volume       = {2015-December},
-    pages        = {3380--3386}
+@inproceedings{nori2015simultaneous,
+author={F. {Nori} and N. {Kuppuswamy} and S. {Traversaro}},
+booktitle={{2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}},
+title={Simultaneous state and dynamics estimation in articulated structures},
+year={2015},
+volume={},
+number={},
+pages={3380-3386},
+abstract={Given an articulated rigid body, we define the problem of estimating its dynamics as the problem of computing all the forces and accelerations acting on the bodies which constitute the articulated system. Similarly, we define the state estimation problem as the problem of computing the system positions and velocities. In the present paper we propose a framework for simultaneous state and dynamics estimation. The estimation is framed in a Bayesian framework and a suitable Bayesian prior is defined to guarantee the physical consistency of the obtained estimation. The Bayesian posterior makes use of all available measurements which include encoders, gyroscopes, accelerometers, force and torque sensors. The proposed theoretical framework is validated both on simulation and on the iCub humanoid. The software that implements the theoretical framework is realised with an open-source license.},
+keywords={Bayes methods;estimation theory;state estimation;simultaneous state;dynamics estimation;articulated structures;articulated rigid body;articulated system;state estimation problem;system positions;Bayesian framework;Bayesian prior;Bayesian posterior;encoders;gyroscopes;accelerometers;force;torque sensors;iCub humanoid;open source license;Estimation;Dynamics;Robots;Acceleration;Kinematics;Niobium;Sensors},
+doi={10.1109/IROS.2015.7353848},
+ISSN={null},
+month={Sep.},
 }
 ,
 @article{nori2015icub,
     year         = 2015,
     title        = {iCub Whole-body Control through Force Regulation on Rigid Noncoplanar Contacts},
     author       = {Nori, Francesco  and  Traversaro, Silvio  and  Eljaik, Jorhabib  and  Romano, Francesco  and  Del Prete, Andrea  and  Pucci, Daniele},
-    journal      = {Frontiers in Robotics and AI},
+    journal      = {{Frontiers in Robotics and AI}},
     volume       = 2,
     number       = 6,
     doi          = {10.3389/frobt.2015.00006},
     issn         = {2296-9144},
-    url          = {http://www.frontiersin.org/humanoid\_robotics/10.3389/frobt.2015.00006/abstract},
+    file         = {https://www.frontiersin.org/articles/10.3389/frobt.2015.00006/pdf},
     abstract     = {This paper details the implementation of state-of-the-art whole-body control algorithms on the humanoid robot iCub. 
                     We regulate the forces between the robot and its surrounding environment to stabilize a desired posture. 
                     We assume that the forces and torques are exerted on rigid contacts. The validity of this assumption is guaranteed 
@@ -281,10 +311,19 @@ month={Nov},}
     year         = 2014,
     title        = {Yarp Based Plugins for Gazebo Simulator},
     author       = {Hoffman, Enrico Mingo and Traversaro, Silvio and Rocchi, Alessio and Ferrati, Mirko and Settimi, Alessandro and Romano, Francesco and Natale, Lorenzo and Bicchi, Antonio and Nori, Francesco and Tsagarakis, Nikos G},
-    journal      = {Modelling and Simulation for Autonomous Systems: First International Workshop, MESAS 2014, Rome, Italy, May 5-6, 2014, Revised Selected Papers},
-    publisher    = {Springer},
+    journal      = {Modelling and Simulation for Autonomous Systems. MESAS 2014. Lecture Notes in Computer Science},
+    publisher    = {Springer, Cham},
     volume       = 8906,
-    pages        = 333
+    pages        = 333,
+    doi          = {10.1007/978-3-319-13823-7_29},
+    file         = {https://www.centropiaggio.unipi.it/sites/default/files/gazebo_yarp_plugins_mesas_final.pdf},
+    abstract     = {This paper presents a set of plugins for the Gazebo simulator that enables the interoperability between a robot,
+                    controlled using the YARP framework, and Gazebo itself. Gazebo is an open-source simulator that can handle different 
+                    Dynamic Engines developed by the Open Source Robotics Foundation. Since our plugins conform with the YARP layer used 
+                    on the real robot, applications written for our robots, COMAN and iCub, can be run on the simulator with no changes. 
+                    Our plugins have two main components: a YARP interface with the same API as the real robot interface, and a Gazebo 
+                    plugin which handles simulated joints, encoders, IMUs, force/torque sensors and synchronization. Different modules
+                    and tasks for COMAN and iCub have been developed using Gazebo and our plugins as a testbed before moving to the real robots.}
 }
 ,
 @inproceedings{traversaro2013inertial,
@@ -295,5 +334,16 @@ month={Nov},}
     booktitle    = {2013 13th {IEEE}-{RAS} International Conference on Humanoid Robots (Humanoids)},
     publisher    = {Institute of Electrical {\&} Electronics Engineers ({IEEE})},
     doi          = {10.1109/humanoids.2013.7029957},
-    url          = {http://dx.doi.org/10.1109/humanoids.2013.7029957}
+    file         = {https://arxiv.org/pdf/1410.4410},
+    abstract     = {Identification of inertial parameters is fundamental for the implementation of torque-based control in humanoids. 
+                    At the same time, good models of friction and actuator dynamics are critical for the low-level control of joint torques. 
+                    We propose a novel method to identify inertial, friction and motor parameters in a single procedure. The identification exploits 
+                    the measurements of the PWM of the DC motors and a 6-axis force/torque sensor mounted inside the kinematic chain. 
+                    The partial least-square (PLS) method is used to perform the regression. We identified the inertial, friction and motor parameters
+                    of the right arm of the iCub humanoid robot. We verified that the identified model can accurately predict the force/torque sensor
+                    measurements and the motor voltages. Moreover, we compared the identified parameters against the CAD parameters, in the prediction
+                    of the force/torque sensor measurements. Finally, we showed that the estimated model can effectively detect external contacts, comparing
+                    it against a tactile-based contact detection. The presented approach offers some advantages with respect to other state-of-the-art methods,
+                    because of its completeness (i.e. it identifies inertial, friction and motor parameters) and simplicity (only one data collection, with no particular requirements).},
+    keywords     = {force sensors;humanoid robots;least squares approximations;regression analysis;tactile sensors;torque control;inertial parameter identification;motor dynamics;friction dynamics;torque-based control;actuator dynamics;joint torque low-level control;DC motors;6-axis force-torque sensor;kinematic chain;partial least-square method;PLS method;iCub humanoid robot;force sensor measurements;torque sensor measurements;Joints;Friction;Torque;Robot sensing systems;DC motors;Solid modeling}, 
 }

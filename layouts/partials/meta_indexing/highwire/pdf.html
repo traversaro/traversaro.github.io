@@ -1,0 +1,5 @@
+{{- $ := .dot -}}
+{{- if (isset $.Params "file") }}
+  <meta name="file-field" content="{{ $.Params.file }}">
+  <meta name="citation_pdf_url" content="{{ .file }}">
+{{ end }}
