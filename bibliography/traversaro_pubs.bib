@@ -1,3 +1,50 @@
+@article{lerario2020jet,
+    author       = {G. {L'Erario} and L. {Fiorio} and G. {Nava} and F. {Bergonti} and H. A. O. {Mohamed} and E. {Benenati} and S. {Traversaro} and D. {Pucci}},
+    journal      = {IEEE Robotics and Automation Letters},
+    title        = {Modeling, Identification and Control of Model Jet Engines for Jet Powered Robotics},
+    year         = {2020},
+    volume       = {},
+    number       = {},
+    pages        = {1-1},
+    abstract     = {The paper contributes towards the modeling, identification, and control of model jet engines.
+              We propose a nonlinear, second order model in order to capture the model jet engines governing dynamics.
+              The model structure is identified by applying sparse identification of nonlinear dynamics, and then the
+              parameters of the model are found via gray-box identification procedures. Once the model has been identified,
+              we approached the control of the model jet engine by designing two control laws. The first one is based on the
+              classical Feedback Linearization technique while the second one on the Sliding Mode control. The overall methodology
+              has been verified by modeling, identifying and controlling two model jet engines, i.e. P100-RX and P220-RXi developed
+              by JetCat, which provide a maximum thrust of 100 N and 220 N, respectively.},
+    keywords     = {Calibration and Identification;Aerial Systems;Robotics in Hazardous Fields},
+    doi          = {10.1109/LRA.2020.2970572},
+    file         = {https://arxiv.org/pdf/1909.13296},
+    ISSN         = {2377-3774},
+    month        = {Jan}
+}
+
+@article{sorrentino2020insole,
+    title        = {A Novel Sensorised Insole for Sensing Feet Pressure Distributions},
+    volume       = {20},
+    ISSN         = {1424-8220},
+    DOI          = {10.3390/s20030747},
+    file         = {https://www.mdpi.com/1424-8220/20/3/747/pdf},
+    number       = {3},
+    journal      = {Sensors},
+    publisher    = {MDPI AG},
+    author       = {Sorrentino, Ines and Andrade Chavez, Francisco Javier and Latella, Claudia and Fiorio, Luca and Traversaro, Silvio and Rapetti, Lorenzo and Tirupachuri, Yeshasvi and Guedelha, Nuno and Maggiali, Marco and Dussoni, Simeone and Metta, Giorgio and Pucci, Daniele},
+    abstract     = {Wearable sensors are gaining in popularity because they enable outdoor experimental monitoring.
+                    This paper presents a cost-effective sensorised insole based on a mesh of tactile capacitive sensors.
+                    Each sensor’s spatial resolution is about 4 taxels/cm² in order to have an accurate reconstruction of
+                    the contact pressure distribution. As a consequence, the insole provides information such as contact forces
+                    moments, and centre of pressure. To retrieve this information, a calibration technique that fuses measurements
+                    from a vacuum chamber and shoes equipped with force/torque sensors is proposed. The validation analysis shows
+                    that the best performance achieved a root mean square error (RMSE) of about 7N for the contact forces and 2Nm
+                    for the contact moments when using the force/torque shoe data as ground truth. Thus, the insole may be an alternative
+                    to force/torque sensors for certain applications, with a considerably more cost-effective and less invasive hardware.},
+    year         = {2020},
+    month        = {Jan},
+    pages        = {747}
+}
+
 @article{chavez2019insitu,
     year         = 2019,
     month        = dec,
@@ -9,14 +56,14 @@
     number       = 24,
     pages        = 5521,
     doi          = {10.3390/s19245521},
-    url          = {https://doi.org/10.3390/s19245521},
-    abstract     = {A crucial part of dynamic motions is the interaction with other objects or the environment. 
-                    Floating base robots have yet to perform these motions repeatably and reliably. Force torque 
-                    sensors are able to provide the full description of a contact. Despite that, their use beyond a 
-                    simple threshold logic is not widespread in floating base robots. Force torque sensors might change 
-                    performance when mounted, which is why in situ calibration methods can improve the performance of 
-                    robots by ensuring better force torque measurements. The Model-Based in situ calibration method with 
-                    temperature compensation has shown promising results in improving FT sensor measurements. There are two 
+    file         = {https://www.mdpi.com/1424-8220/19/24/5521/pdf},
+    abstract     = {A crucial part of dynamic motions is the interaction with other objects or the environment.
+                    Floating base robots have yet to perform these motions repeatably and reliably. Force torque
+                    sensors are able to provide the full description of a contact. Despite that, their use beyond a
+                    simple threshold logic is not widespread in floating base robots. Force torque sensors might change
+                    performance when mounted, which is why in situ calibration methods can improve the performance of
+                    robots by ensuring better force torque measurements. The Model-Based in situ calibration method with
+                    temperature compensation has shown promising results in improving FT sensor measurements. There are two
                     main goals for this paper. The first is to facilitate the use and understanding of the method by providing
                     guidelines that show their usefulness through experimental results. Then the impact of having better FT measurements
                     with no temperature drift are demonstrated by proving that the offset estimated with this method is still useful days
@@ -33,7 +80,14 @@
     author       = {Claudia Latella and Silvio Traversaro and Diego Ferigo and Yeshasvi Tirupachuri and Lorenzo Rapetti and Francisco Javier Andrade Chavez and Francesco Nori and Daniele Pucci},
     journal      = {Sensors},
     doi          = {10.3390/s19122794},
-    url          = {http://doi.org/10.3390/s19122794}
+    file         = {https://www.mdpi.com/1424-8220/19/12/2794/pdf},
+    abstract     = {The paper presents a stochastic methodology for the simultaneous floating-base estimation
+                    of the human whole-body kinematics and dynamics (i.e., joint torques, internal and external forces).
+                    The paper builds upon our former work where a fixed-base formulation had been developed for the human
+                    estimation problem. The presented approach is validated by presenting experimental results of a health
+                    subject equipped with a wearable motion tracking system and a pair of shoes sensorized with force/torque
+                    sensors while performing different motion tasks, e.g., walking on a treadmill. The results show that joint
+                    torque estimates obtained by using floating-base and fixed-base approaches match satisfactorily, thus validating the present approach.}
 }
 ,
 @article{romeres2019,
@@ -44,7 +98,16 @@
     publisher    = {Institute of Electrical and Electronics Engineers ({IEEE})},
     pages        = {1--15},
     doi          = {10.1109/tcst.2019.2891222},
-    url          = {https://doi.org/10.1109/tcst.2019.2891222}
+    file         = {https://arxiv.org/pdf/1809.05074},
+    abstract     = {This paper discusses online algorithms for inverse dynamics modelling in robotics.
+                    Several model classes including rigid body dynamics (RBD) models, data-driven models
+                    and semiparametric models (which are a combination of the previous two classes) are
+                    placed in a common framework. While model classes used in the literature typically
+                    exploit joint velocities and accelerations, which need to be approximated resorting
+                    to numerical differentiation schemes, in this paper a new `derivative-free' framework
+                    is proposed that does not require this preprocessing step. An extensive experimental
+                    study with real data from the right arm of the iCub robot is presented, comparing different
+                    model classes and estimation procedures, showing that the proposed `derivative-free' methods outperform existing methodologies.}
 }
 ,
 @article{kangro2018,
