@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Silvio Traversaro</title>
+    <link>https://traversaro.github.io/publications/</link>
+    <description>Recent content in Publications on Silvio Traversaro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020 Silvio Traversaro</copyright>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://traversaro.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A generic synchronous dataflow architecture to rapidly prototype and deploy robot controllers</title>
+      <link>https://traversaro.github.io/publications/ferigo2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/ferigo2020/</guid>
+      <description>The article presents a software architecture to optimize the process of prototyping and deploying robot controllers that are synthesized using model-based design methodologies. The architecture is composed of a framework and a pipeline. Therefore, the contribution of the article is twofold. First, we introduce an open-source actor-oriented framework that abstracts the common robotic uses of middlewares, optimizers, and simulators. Using this framework, we then present a pipeline that implements the model-based design methodology.</description>
+    </item>
+    
+    <item>
+      <title>A novel sensorised insole for sensing feet pressure distributions</title>
+      <link>https://traversaro.github.io/publications/sorrentino2020insole/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/sorrentino2020insole/</guid>
+      <description>Wearable sensors are gaining in popularity because they enable outdoor experimental monitoring. This paper presents a cost-effective sensorised insole based on a mesh of tactile capacitive sensors. Each sensor’s spatial resolution is about 4 taxels/cm² in order to have an accurate reconstruction of the contact pressure distribution. As a consequence, the insole provides information such as contact forces moments, and centre of pressure. To retrieve this information, a calibration technique that fuses measurements from a vacuum chamber and shoes equipped with force/torque sensors is proposed.</description>
+    </item>
+    
+    <item>
+      <title>Modeling, identification and control of model jet engines for jet powered robotics</title>
+      <link>https://traversaro.github.io/publications/lerario2020jet/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/lerario2020jet/</guid>
+      <description>The paper contributes towards the modeling, identification, and control of model jet engines. We propose a nonlinear, second order model in order to capture the model jet engines governing dynamics. The model structure is identified by applying sparse identification of nonlinear dynamics, and then the parameters of the model are found via gray-box identification procedures. Once the model has been identified, we approached the control of the model jet engine by designing two control laws.</description>
+    </item>
+    
+    <item>
+      <title>Six-axis force torque sensor model-based in situ calibration method and its impact in floating-based robot dynamic performance</title>
+      <link>https://traversaro.github.io/publications/chavez2019insitu/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/chavez2019insitu/</guid>
+      <description>A crucial part of dynamic motions is the interaction with other objects or the environment. Floating base robots have yet to perform these motions repeatably and reliably. Force torque sensors are able to provide the full description of a contact. Despite that, their use beyond a simple threshold logic is not widespread in floating base robots. Force torque sensors might change performance when mounted, which is why in situ calibration methods can improve the performance of robots by ensuring better force torque measurements.</description>
+    </item>
+    
+    <item>
+      <title>Derivative-free online learning of inverse dynamics models</title>
+      <link>https://traversaro.github.io/publications/romeres2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/romeres2019/</guid>
+      <description>This paper discusses online algorithms for inverse dynamics modelling in robotics. Several model classes including rigid body dynamics (RBD) models, data-driven models and semiparametric models (which are a combination of the previous two classes) are placed in a common framework. While model classes used in the literature typically exploit joint velocities and accelerations, which need to be approximated resorting to numerical differentiation schemes, in this paper a new ‘derivative-free’ framework is proposed that does not require this preprocessing step.</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous floating-base estimation of human kinematics and joint torques</title>
+      <link>https://traversaro.github.io/publications/latella2019simultaneous/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/latella2019simultaneous/</guid>
+      <description>The paper presents a stochastic methodology for the simultaneous floating-base estimation of the human whole-body kinematics and dynamics (i.e., joint torques, internal and external forces). The paper builds upon our former work where a fixed-base formulation had been developed for the human estimation problem. The presented approach is validated by presenting experimental results of a health subject equipped with a wearable motion tracking system and a pair of shoes sensorized with force/torque sensors while performing different motion tasks, e.</description>
+    </item>
+    
+    <item>
+      <title>A plenum-based calibration device for tactile sensor arrays</title>
+      <link>https://traversaro.github.io/publications/kangro2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/kangro2018/</guid>
+      <description>In modern robotic applications, tactile sensor arrays (i.e., artificial skins) are an emergent solution to determine the locations of contacts between a robot and an external agent. Localizing the point of contact is useful but determining the force applied on the skin provides many additional possibilities. This additional feature usually requires time-consuming calibration procedures to relate the sensor readings to the applied forces. This letter presents a novel device that enables the calibration of tactile sensor arrays in a fast and simple way.</description>
+    </item>
+    
+    <item>
+      <title>Contact force and joint torque estimation using skin</title>
+      <link>https://traversaro.github.io/publications/chavez2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/chavez2018/</guid>
+      <description>In this letter, we present algorithms to estimate contact locations, external forces, and joint torques using skin, i.e., distributed tactile sensors, kinematic sensors, and a single Inertial Measurement Unit (IMU) without the need for force-torque sensors. Distributed tactile sensors are an array of discrete tactile sensors (taxels) with gaps between them. To cope with the gaps, we use interpolation techniques to improve accuracy of the measurements in the skin. Then, we estimate the external force.</description>
+    </item>
+    
+    <item>
+      <title>[Modelling, Estimation and Identification of Humanoid Robots Dynamics]{.nocase}</title>
+      <link>https://traversaro.github.io/publications/traversaro2017thesis/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/traversaro2017thesis/</guid>
+      <description>During the last fifty years, the scientific community has dealt with the problem of designing humanoid robots, with the goal of creating artificial machines flexible enough to master any task performed by a human. A prerequisite for such generic machines would be the ability to control the forces that robots exchange with the environment, in addition to their own motion. These requirements imply that any controller of a humanoid robot requires an implicit or explicit model for the robot’s dynamics, i.</description>
+    </item>
+    
+    <item>
+      <title>On centroidal dynamics and integrability of average angular velocity</title>
+      <link>https://traversaro.github.io/publications/saccon2017centroidal/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/saccon2017centroidal/</guid>
+      <description>In the literature on robotics and multibody dynamics, the concept of average angular velocity has received considerable attention in recent years. We address the question of whether the average angular velocity defines an orientation frame that depends only on the current robot configuration and provide a simple algebraic condition to check whether this holds. In the language of geometric mechanics, this condition corresponds to requiring the flatness of the mechanical connection associated with the robotic system.</description>
+    </item>
+    
+    <item>
+      <title>Highly dynamic balancing via force control</title>
+      <link>https://traversaro.github.io/publications/pucci2016highly/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/pucci2016highly/</guid>
+      <description>This video shows the latest results in the whole-body control of humanoid robots achieved by the Dynamic Interaction Control Lab at the Italian Institute of Technology. In particular, the control architecture is composed of two nested control loops. The internal loop, which runs at 1 KHz, is in charge of stabilizing any desired joint torque. This task is achieved thanks to an off-line identification procedure providing us with a reliable model of friction and motor constants.</description>
+    </item>
+    
+    <item>
+      <title>Model based in situ calibration of six axis force torque sensors</title>
+      <link>https://traversaro.github.io/publications/chavez2016model/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/chavez2016model/</guid>
+      <description>This paper proposes and validates an in situ calibration method to calibrate six axis force torque (F/T) sensors once they are mounted on the system. This procedure takes advantage of the knowledge of the model of the robot to generate the expected wrenches of the sensors during some arbitrary motions. It then uses this information to train and validate new calibration matrices, taking into account the calibration matrix obtained with a classical Workbench calibration.</description>
+    </item>
+    
+    <item>
+      <title>Self-calibration of joint offsets for humanoid robots using accelerometer measurements</title>
+      <link>https://traversaro.github.io/publications/guedelha2016self/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/guedelha2016self/</guid>
+      <description>Accurate calibration of joint offsets is a crucial requirement for effective kinematic and dynamic control of robots. Such calibration is typically carried out using cumbersome and time-consuming procedures. We propose a technique for joint offset calibration using the measurements from a distributed set of on-board accelerometers. Differently from existing techniques, we do not assume that the accelerometers are perfectly calibrated. The calibration procedure consist in a two steps automatic procedure : the first step calibrates the accelerometer measurements, while the second one computes the optimal joint offsets.</description>
+    </item>
+    
+    <item>
+      <title>Stable bipedal foot planting on uneven terrain through optimal ankle impedance</title>
+      <link>https://traversaro.github.io/publications/romano2016stable/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/romano2016stable/</guid>
+      <description>In the problem of fast bipedal locomotion on uneven terrain, one of the key challenges is in establishing stable footholds. We present an approach for analytically computing the optimal impedances for completing a safe and stable foothold. The robot foot-leg behavior is modeled as a free-floating two-link system making contact with an uneven surface. The optimal impedance is derived directly from minimizing a cost function based on the Center of Pressure (CoP) at the instant of making full ground contact.</description>
+    </item>
+    
+    <item>
+      <title>Identification of fully physical consistent inertial parameters using optimization on manifolds</title>
+      <link>https://traversaro.github.io/publications/traversaro2016manifolds/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/traversaro2016manifolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental semiparametric inverse dynamics learning</title>
+      <link>https://traversaro.github.io/publications/camoriano2016incremental/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/camoriano2016incremental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whole-body human inverse dynamics with distributed micro-accelerometers, gyros and force sensing</title>
+      <link>https://traversaro.github.io/publications/latella2016berdy/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/latella2016berdy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simultaneous state and dynamics estimation in articulated structures</title>
+      <link>https://traversaro.github.io/publications/nori2015simultaneous/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/nori2015simultaneous/</guid>
+      <description>Given an articulated rigid body, we define the problem of estimating its dynamics as the problem of computing all the forces and accelerations acting on the bodies which constitute the articulated system. Similarly, we define the state estimation problem as the problem of computing the system positions and velocities. In the present paper we propose a framework for simultaneous state and dynamics estimation. The estimation is framed in a Bayesian framework and a suitable Bayesian prior is defined to guarantee the physical consistency of the obtained estimation.</description>
+    </item>
+    
+    <item>
+      <title>In situ calibration of six-axis force-torque sensors using accelerometer measurements</title>
+      <link>https://traversaro.github.io/publications/traversaro2015insi/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/traversaro2015insi/</guid>
+      <description>This paper proposes techniques to calibrate six-axis force-torque sensors that can be performed in situ, i.e., without removing the sensor from the hosting system. We assume that the force-torque sensor is attached to a rigid body equipped with an accelerometer. Then, the proposed calibration technique uses the measurements of the accelerometer, but requires neither the knowledge of the inertial parameters nor the orientation of the rigid body. The proposed method exploits the geometry induced by the model between the raw measurements of the sensor and the corresponding force-torque.</description>
+    </item>
+    
+    <item>
+      <title>Inertial parameters identification and joint torques estimation with proximal force/torque sensing</title>
+      <link>https://traversaro.github.io/publications/traversaro2015inertial/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/traversaro2015inertial/</guid>
+      <description>Classically robot force control passes through joint torques measurement or estimation. Within this context, classical torque sensing technologies rely on current sensing on motor windings and on torsion sensing on motor shaft. An alternative approach was recently proposed in [1] and combines whole-body distributed 6-axis force/torque (F/T) sensors, gyroscopes, accelerometers and tactile sensors (i.e. artificial skin). A further advantage of this method is that it simultaneously estimates (internal) joint torques and (external) contact forces with no need of joint redesign.</description>
+    </item>
+    
+    <item>
+      <title>A generic testing framework for test driven development of robotic systems</title>
+      <link>https://traversaro.github.io/publications/paikan2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/paikan2015/</guid>
+      <description>This paper proposes a generic framework for test driven development of robotic systems. The framework provides functionalities for developing and running unit tests in a language and middleware independent manner. Tests are developed as independent plug-ins to be loaded and executed by an automated tool. Moreover, a fixture manager prepares the setup (e.g., running robot drivers or simulator) and actively monitors that all the required resources are available before and during the execution of the tests.</description>
+    </item>
+    
+    <item>
+      <title>ICub whole-body control through force regulation on rigid noncoplanar contacts</title>
+      <link>https://traversaro.github.io/publications/nori2015icub/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/nori2015icub/</guid>
+      <description>This paper details the implementation of state-of-the-art whole-body control algorithms on the humanoid robot iCub. We regulate the forces between the robot and its surrounding environment to stabilize a desired posture. We assume that the forces and torques are exerted on rigid contacts. The validity of this assumption is guaranteed by constraining the contact forces and torques, e.g., the contact forces must belong to the associated friction cones. The implementation of this control strategy requires the estimation of both joint torques and external forces acting on the robot.</description>
+    </item>
+    
+    <item>
+      <title>Yarp based plugins for gazebo simulator</title>
+      <link>https://traversaro.github.io/publications/hoffman2014yarp/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/hoffman2014yarp/</guid>
+      <description>This paper presents a set of plugins for the Gazebo simulator that enables the interoperability between a robot, controlled using the YARP framework, and Gazebo itself. Gazebo is an open-source simulator that can handle different Dynamic Engines developed by the Open Source Robotics Foundation. Since our plugins conform with the YARP layer used on the real robot, applications written for our robots, COMAN and iCub, can be run on the simulator with no changes.</description>
+    </item>
+    
+    <item>
+      <title>Inertial parameter identification including friction and motor dynamics</title>
+      <link>https://traversaro.github.io/publications/traversaro2013inertial/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://traversaro.github.io/publications/traversaro2013inertial/</guid>
+      <description>Identification of inertial parameters is fundamental for the implementation of torque-based control in humanoids. At the same time, good models of friction and actuator dynamics are critical for the low-level control of joint torques. We propose a novel method to identify inertial, friction and motor parameters in a single procedure. The identification exploits the measurements of the PWM of the DC motors and a 6-axis force/torque sensor mounted inside the kinematic chain.</description>
+    </item>
+    
+  </channel>
+</rss>
