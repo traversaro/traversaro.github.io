@@ -32,6 +32,12 @@ jobs:
         cd .. 
         # Run Hugo
         hugo -D
+        
+    - name: Upload website for manual inspection
+      uses: actions/upload-artifact@v1
+      with:
+        name: website
+        path: public
 
     - name: Deploy
       if: github.event_name == 'push' && (github.ref == 'refs/heads/source')
