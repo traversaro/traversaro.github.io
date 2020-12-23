@@ -1,3 +1,53 @@
+@Inbook{lange2021fmiros,
+author="Lange, Ralph
+and Traversaro, Silvio
+and Lenord, Oliver
+and Bertsch, Christian",
+editor="Koubaa, Anis",
+title="Integrating the Functional Mock-Up Interface with ROS and Gazebo",
+bookTitle="Robot Operating System (ROS): The Complete Reference (Volume 5)",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="187--231",
+abstract="The Functional Mock-up Interface (FMI) is a widely used industry standard for exchange and co-simulation of dynamic models as Functional Mock-up Units (FMU). It is supported by more than 100 modeling and simulation tools. In this chapter, we present two implementations of FMI that bridge the gap between these tools and the ROS and Gazebo community: First, the fmi{\_}adapter package for running/simulating FMUs in ROS nodes, from https://github.com/boschresearch/fmi{\_}adapter{\_}ros2. Second, the gazebo-fmi package for integrating FMUs with Gazebo, from https://github.com/robotology/gazebo-fmi. After an introduction to the FMI standard, this chapter provides step-by-step, hands-on examples for both packages, followed by interface descriptions and selected implementation details. In addition to these tutorial-style sections, the chapter also provides comprehensive descriptions of two use-cases. First, it explains how the fmi{\_}adapter enabled a convenient model-based control design workflow for a self-driving vehicle for industrial logistics. Second, it reports on the simulation of electrical actuators in Gazebo from a Modelica model.",
+isbn="978-3-030-45956-7",
+doi="10.1007/978-3-030-45956-7_7",
+url="https://doi.org/10.1007/978-3-030-45956-7_7"
+}
+,
+@article{romualdi2020benchmarking,
+  doi = {10.1142/s0219843619500348},
+  url = {https://doi.org/10.1142/s0219843619500348},
+  year = {2020},
+  month = feb,
+  publisher = {World Scientific Pub Co Pte Lt},
+  volume = {17},
+  number = {01},
+  pages = {1950034},
+  author = {Giulio Romualdi and Stefano Dafarra and Yue Hu and Prashanth Ramadoss and Francisco Javier Andrade Chavez and Silvio Traversaro and Daniele Pucci},
+  title = {A Benchmarking of {DCM}-Based Architectures for Position,  Velocity and Torque-Controlled Humanoid Robots},
+  journal = {International Journal of Humanoid Robotics}
+}
+,
+@INPROCEEDINGS{rendiniello2020flexible,
+
+  author={A. {Rendiniello} and A. {Remus} and I. {Sorrentino} and P. K. {Murali} and D. {Pucci} and M. {Maggiali} and L. {Natale} and S. {Traversaro} and E. {Villagrossi} and A. {Polo} and A. {Ardesi}},
+
+  booktitle={2020 25th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)},
+
+  title={A Flexible Software Architecture for Robotic Industrial Applications},
+
+  year={2020},
+
+  volume={1},
+
+  number={},
+
+  pages={1273-1276},
+
+  doi={10.1109/ETFA46521.2020.9212095}}
+,
 @article{Ferigo2020,
     title        = {A generic synchronous dataflow architecture to rapidly prototype and deploy robot controllers},
     author       = {Diego Ferigo and Silvio Traversaro and Francesco Romano and Daniele Pucci},
@@ -11,7 +61,60 @@
     url          = {https://doi.org/10.1177/1729881420921625},
     abstract     = {The article presents a software architecture to optimize the process of prototyping and deploying robot controllers that are synthesized using model-based design methodologies. The architecture is composed of a framework and a pipeline. Therefore, the contribution of the article is twofold. First, we introduce an open-source actor-oriented framework that abstracts the common robotic uses of middlewares, optimizers, and simulators. Using this framework, we then present a pipeline that implements the model-based design methodology. The components of the proposed framework are generic, and they can be interfaced with any tool supporting model-based design. We demonstrate the effectiveness of the approach describing the application of the resulting synchronous dataflow architecture to the design of a balancing controller for the YARP-based humanoid robot iCub. This example exploits the interfacing with Simulink® and Simulink® Coder™.}
 }
+,
+@INPROCEEDINGS{ferigo2020gymignition,
 
+  author={D. {Ferigo} and S. {Traversaro} and G. {Metta} and D. {Pucci}},
+
+  booktitle={2020 IEEE/SICE International Symposium on System Integration (SII)},
+
+  title={Gym-Ignition: Reproducible Robotic Simulations for Reinforcement Learning},
+
+  year={2020},
+
+  volume={},
+
+  number={},
+
+  pages={885-890},
+
+  doi={10.1109/SII46433.2020.9025951}}
+,
+@InProceedings{geudelha2019coupledjoints,
+author="Guedelha, Nuno
+and Traversaro, Silvio
+and Pucci, Daniele",
+editor="Bi, Yaxin
+and Bhatia, Rahul
+and Kapoor, Supriya",
+title="Identification of Motor Parameters on Coupled Joints",
+booktitle="Intelligent Systems and Applications",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1153--1172",
+abstract="The estimation of the motor torque and friction parameters are crucial for implementing an efficient low level joint torque control. In a set of coupled joints, the actuators torques are mapped to the output joint torques through a coupling matrix, such that the motor torque and friction parameters appear entangled from the point of view of the joints. As a result, their identification is problematic when using the same methodology as for single joints. This paper proposes an identification method with an improved accuracy with respect to classical closed loop methods on coupled joints. The method stands out through the following key points: it is a direct open loop identification; it addresses separately each motor in the coupling; it accounts for the static friction in the actuation elements. The identified parameters should significantly improve the contribution of the feed-forward terms in the low level control of coupled joints with static friction.",
+isbn="978-3-030-29513-4"
+}
+,
+@InProceedings{tirupachuri2019momentum,
+author="Tirupachuri, Yeshasvi
+and Traversaro, Silvio
+and Nori, Francesco
+and Pucci, Daniele",
+editor="Bi, Yaxin
+and Bhatia, Rahul
+and Kapoor, Supriya",
+title="Momentum-Based Topology Estimation of Articulated Objects",
+booktitle="Intelligent Systems and Applications",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1093--1105",
+abstract="Articulated objects like doors, drawers, valves, and tools are pervasive in our everyday unstructured dynamic environments. Articulation models describe the joint nature between the different parts of an articulated object. As most of these objects are passive, a robot has to interact with them to infer all the articulation models to understand the object topology. We present a general algorithm to estimate the inherent articulation models by exploiting the momentum of the articulated system along with the interaction wrench while manipulating the object. We validate our approach with experiments in a simulation environment.",
+isbn="978-3-030-29513-4"
+}
+,
 @article{lerario2020jet,
     author       = {G. {L'Erario} and L. {Fiorio} and G. {Nava} and F. {Bergonti} and H. A. O. {Mohamed} and E. {Benenati} and S. {Traversaro} and D. {Pucci}},
     journal      = {IEEE Robotics and Automation Letters},
@@ -58,7 +161,21 @@
     month        = {Jan},
     pages        = {747}
 }
-
+,
+@article{domenichelli2019ycm,
+  doi = {10.1142/s1793351x19400087},
+  url = {https://doi.org/10.1142/s1793351x19400087},
+  year = {2019},
+  month = jun,
+  publisher = {World Scientific Pub Co Pte Lt},
+  volume = {13},
+  number = {02},
+  pages = {185--205},
+  author = {Daniele E. Domenichelli and Silvio Traversaro and Luca Muratore and Alessio Rocchi and Francesco Nori and Lorenzo Natale},
+  title = {A Build System for Software Development in Robotic Academic Collaborative Environments},
+  journal = {International Journal of Semantic Computing}
+}
+,
 @article{chavez2019insitu,
     year         = 2019,
     month        = dec,
@@ -122,6 +239,24 @@
                     is proposed that does not require this preprocessing step. An extensive experimental
                     study with real data from the right arm of the iCub robot is presented, comparing different
                     model classes and estimation procedures, showing that the proposed `derivative-free' methods outperform existing methodologies.}
+}
+,
+@Inbook{nori2018humanoidestimation,
+author="Nori, Francesco
+and Traversaro, Silvio
+and Fallon, Maurice",
+editor="Goswami, Ambarish
+and Vadakkepat, Prahlad",
+title="Sensor Fusion and State Estimation of the Robot",
+bookTitle="Humanoid Robotics: A Reference",
+year="2018",
+publisher="Springer Netherlands",
+address="Dordrecht",
+pages="1--29",
+abstract="In this chapter, we review previous estimation and sensor fusion approaches in the field of humanoid robotics. The focus is primarily but not exclusively on state estimation. Humanoids are modelled as free-floating mechanical systems subject to external forces and constrained by whole-body distributed rigid contacts. Besides state estimation, a number of related problems are considered including the estimation of joint torques, contact forces, contact positions, and the center of mass. Previous approaches are discussed with reference to a number of features relevant to humanoid applications: computational complexity, observability analysis, modeling accuracy, and floating-base parameterization. This chapter concludes with a section on future directions and open problems, revisited in the light of previously discussed approaches.",
+isbn="978-94-007-7194-9",
+doi="10.1007/978-94-007-7194-9_105-1",
+url="https://doi.org/10.1007/978-94-007-7194-9_105-1"
 }
 ,
 @article{kangro2018,
